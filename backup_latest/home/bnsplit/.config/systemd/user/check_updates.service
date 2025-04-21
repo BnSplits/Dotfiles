@@ -1,0 +1,14 @@
+[Unit]
+Description=Check for Updates (User)
+After=network.target graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/bnsplit/scripts/check_updates.sh
+Environment=DISPLAY=:0
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+
+[Install]
+WantedBy=default.target

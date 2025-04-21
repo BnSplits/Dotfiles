@@ -1,0 +1,61 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="Python" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="JetBrains Mono Medium" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "InstalledPluginsSearchHistory": "vim\nvi\nv\nn\nnv",
+    "KEYMAP": "run",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "0",
+    "MarketplacePluginsSearchHistory": "gruvbox\nvim\nclock\nneovim\nnevim",
+    "PyCharm.InitialConfiguration": "true",
+    "PyCharm.InitialConfiguration.V2": "true",
+    "PyCharm.InitialConfiguration.V3": "true",
+    "PyCharm.InitialConfiguration.V4": "true",
+    "PyCharm.InitialConfiguration.V5": "true",
+    "PyCharm.InitialConfiguration.V6": "true",
+    "PyCharm.InitialConfiguration.V7": "true",
+    "PyCharm.InitialConfiguration.V8": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "SettingsSearchHistory": "lang",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "enter_selection_count": "4",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "243.26053.29",
+    "experimentalFeature.terminal.shell.command.handling": "false",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "20.0",
+    "fontSizeToResetEditor": "20.0",
+    "got.it.tooltip.new.terminal.promotion.243": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "ide.memory.adjusted": "true",
+    "ideavim.statistics.timestamp": "1742379701153",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/bnsplit/Obsidian/02 IAI/SEM 2/Ressources/Python",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Gruvbox Dark Hard",
+    "python.new.interpreter.fav.manager": "VIRTUALENV",
+    "python.new.interpreter.fav.method": "CREATE_NEW",
+    "python.new.interpreter.fav.mode": "PROJECT_VENV",
+    "registry.to.advanced.settings.migration.build": "PC-243.26053.29",
+    "settings.code.style.selected.tab.Python": "Wrapping and Braces",
+    "tab_selection_count": "1"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/bnsplit/Obsidian/02 IAI/SEM 2/Ressources/Python"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

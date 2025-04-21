@@ -1,0 +1,85 @@
+/*
+* GTK4 solid Colors
+*/
+
+@define-color accent_bg_color #446F81;
+@define-color accent_fg_color #D6E4E9;
+@define-color accent_color #446F81;
+
+/* @define-color destructive_bg_color #446F81; */
+@define-color destructive_bg_color #F44336;
+@define-color destructive_fg_color #D6E4E9;
+
+/* @define-color destructive_color #C1D6DF; */
+@define-color destructive_color #F44336;
+
+/* @define-color error_bg_color #D6E4E9; */
+@define-color error_bg_color #F44336;
+
+@define-color error_fg_color #D6E4E9;
+
+/* @define-color error_color #C1D6DF; */
+@define-color error_color #F44336;
+
+@define-color success_bg_color #98BBC9;
+/* @define-color success_bg_color #66BB6A; */
+@define-color success_fg_color #D6E4E9;
+
+@define-color success_color #4F8196;
+/* @define-color success_color #66BB6A; */
+
+/* @define-color warning_bg_color #6F9FB4; */
+@define-color warning_bg_color #FFD600;
+
+@define-color warning_fg_color #395D6D;
+
+/* @define-color warning_color #446F81; */
+@define-color warning_color #FFD600;
+
+@define-color window_bg_color #0E171B;
+@define-color window_fg_color #EAF1F4;
+@define-color view_bg_color #0E171B; /* Nautilus main window */
+@define-color view_fg_color #EAF1F4;
+@define-color headerbar_bg_color #243A44;
+@define-color headerbar_fg_color #EAF1F4;
+@define-color headerbar_border_color #4F8196;
+@define-color headerbar_backdrop_color #0E171B;
+@define-color headerbar_shade_color #0E171B;
+@define-color headerbar_darker_shade_color #0E171B;
+@define-color sidebar_bg_color #0E171B;
+@define-color sidebar_fg_color #D6E4E9;
+@define-color sidebar_backdrop_color #0E171B;
+@define-color sidebar_border_color #0E171B;
+@define-color sidebar_shade_color #0E171B;
+@define-color card_bg_color #243A44;
+@define-color card_fg_color #EAF1F4;
+@define-color card_shade_color #0E171B;
+@define-color dialog_bg_color #19292F;
+@define-color dialog_fg_color #EAF1F4;
+@define-color popover_bg_color #243A44;
+@define-color popover_fg_color #EAF1F4;
+@define-color popover_shade_color #0E171B;
+@define-color thumbnail_bg_color #446F81;
+@define-color thumbnail_fg_color #84ADBE;
+@define-color incognito_bg_color #0E171B;
+@define-color new_title_bg_color #243A44;
+@define-color shade_color rgba(14,23,27,0.25);
+@define-color scrollbar_outline_color #5B92A9;
+/* Public colors from Default */
+@define-color theme_bg_color @window_bg_color;
+@define-color theme_fg_color @window_fg_color;
+@define-color theme_base_color @view_bg_color;
+@define-color theme_text_color @view_fg_color;
+@define-color theme_selected_bg_color @accent_bg_color;
+@define-color theme_selected_fg_color @accent_fg_color;
+@define-color insensitive_bg_color mix(@window_bg_color,@view_bg_color,0.4);
+@define-color insensitive_fg_color alpha(@window_fg_color,0.5);
+@define-color insensitive_base_color @view_bg_color;
+@define-color borders alpha(currentColor,0.12);
+@define-color theme_unfocused_bg_color @window_bg_color;
+@define-color theme_unfocused_fg_color @window_fg_color;
+@define-color theme_unfocused_base_color @view_bg_color;
+@define-color theme_unfocused_text_color @view_fg_color;
+@define-color theme_unfocused_selected_bg_color @accent_bg_color;
+@define-color theme_unfocused_selected_fg_color @accent_fg_color;
+@define-color unfocused_insensitive_color @insensitive_bg_color;

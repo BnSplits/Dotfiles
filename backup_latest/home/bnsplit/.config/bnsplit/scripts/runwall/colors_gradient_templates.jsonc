@@ -1,0 +1,77 @@
+[
+  // --------------------------
+  // Base Color Files
+  // --------------------------
+  {
+    "name": "colors-hex",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors-hex",
+    "output": "~/.config/bnsplit/colors/colors-hex"
+  },
+  {
+    "name": "colors-source",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors-source",
+    "output": "~/.config/bnsplit/colors/colors-source"
+  },
+  {
+    "name": "colors-css",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors.css",
+    "output": "~/.config/bnsplit/colors/colors.css"
+  },
+
+  // --------------------------
+  // GTK3 Theme Files
+  // --------------------------
+  {
+    "name": "gtk3-solid",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/gtk-solid.css",
+    "output": "~/.themes/custom-adw/gtk-3.0/colors-solid.css",
+    "header": "/*\n* GTK3 solid Colors\n*/"
+  },
+  {
+    "name": "gtk3-xray",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/gtk-xray.css",
+    "output": "~/.themes/custom-adw/gtk-3.0/colors-xray.css",
+    "header": "/*\n* GTK3 xray Colors\n*/"
+  },
+
+  // --------------------------
+  // GTK4 Theme Files
+  // --------------------------
+  {
+    "name": "gtk4-solid",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/gtk-solid.css",
+    "output": "~/.themes/custom-adw/gtk-4.0/colors-solid.css",
+    "header": "/*\n* GTK4 solid Colors\n*/"
+  },
+  {
+    "name": "gtk4-xray",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/gtk-xray.css",
+    "output": "~/.themes/custom-adw/gtk-4.0/colors-xray.css",
+    "header": "/*\n* GTK4 xray Colors\n*/"
+  },
+
+  // --------------------------
+  // Application Configurations
+  // --------------------------
+  {
+    "name": "rofi",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors-rofi.rasi",
+    "output": "~/.config/bnsplit/colors/colors-rofi.rasi"
+  },
+  {
+    "name": "cava",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/cava-config",
+    "output": "~/.config/cava/config"
+  },
+  {
+    "name": "hyprland",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors-hypr.conf",
+    "output": "~/.config/bnsplit/colors/colors-hypr.conf"
+  },
+  {
+    "name": "kitty",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors-kitty.conf",
+    "output": "~/.config/bnsplit/colors/colors-kitty.conf",
+    "command": "pkill -SIGUSR1 kitty"
+  }
+]

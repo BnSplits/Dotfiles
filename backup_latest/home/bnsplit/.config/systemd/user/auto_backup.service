@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily Backup Script
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sudo /home/bnsplit/.config/bnsplit/scripts/save.sh
+Environment=DISPLAY=:0
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=default.target

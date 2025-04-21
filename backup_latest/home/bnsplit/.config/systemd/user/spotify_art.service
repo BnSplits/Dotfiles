@@ -1,0 +1,11 @@
+[Unit]
+Description=Spotify Art Download Script
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=%h/.config/bnsplit/scripts/spotify_art.sh
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

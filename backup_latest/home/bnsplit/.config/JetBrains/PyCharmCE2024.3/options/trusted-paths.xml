@@ -1,0 +1,10 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Obsidian/02 IAI/SEM 2/Ressources/Python/Test" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/PythonProject" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

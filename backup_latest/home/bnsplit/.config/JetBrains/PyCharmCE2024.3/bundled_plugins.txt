@@ -1,0 +1,72 @@
+Git4Idea|Version Controls
+
+PythonCore|null
+
+Subversion|Version Controls
+
+com.intellij.completion.ml.ranking|Local AI/ML Tools
+
+com.intellij.configurationScript|null
+
+com.intellij.copyright|Other Tools
+
+com.intellij.dev|null
+
+com.intellij.marketplace.ml|Local AI/ML Tools
+
+com.intellij.modules.json|Languages
+
+com.intellij.platform.images|null
+
+com.intellij.plugins.github.colorscheme|UI
+
+com.intellij.plugins.monokai.colorscheme|UI
+
+com.intellij.plugins.twilight.colorscheme|UI
+
+com.intellij.plugins.warmneon.colorscheme|UI
+
+com.intellij.properties|Languages
+
+com.intellij.searcheverywhere.ml|Local AI/ML Tools
+
+com.intellij.settingsSync|IDE Settings
+
+com.intellij.tasks|Other Tools
+
+com.intellij|null
+
+com.jetbrains.performancePlugin|Other Tools
+
+com.jetbrains.pycharm.community.customization|null
+
+com.jetbrains.sh|Languages
+
+hg4idea|Version Controls
+
+org.editorconfig.editorconfigjetbrains|Other Tools
+
+org.intellij.intelliLang|Other Tools
+
+org.intellij.plugins.markdown|Languages
+
+org.jetbrains.plugins.emojipicker|Other Tools
+
+org.jetbrains.plugins.github|Version Controls
+
+org.jetbrains.plugins.gitlab|Version Controls
+
+org.jetbrains.plugins.rest|null
+
+org.jetbrains.plugins.terminal|Other Tools
+
+org.jetbrains.plugins.textmate|Other Tools
+
+org.jetbrains.plugins.yaml|Languages
+
+org.toml.lang|Languages
+
+tanvd.grazi|null
+
+training|null
+

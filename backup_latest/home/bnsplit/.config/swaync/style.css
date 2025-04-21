@@ -1,0 +1,207 @@
+@import url("../bnsplit/colors/colors.css");
+
+/********************
+ * Color Definitions *
+ ********************/
+@define-color cc-bg @x-surface;
+@define-color noti-border-color @s-col-14;
+@define-color noti-bg @x-col-2;
+@define-color noti-bg-opaque @s-surface-container;
+@define-color noti-bg-darker @s-surface-dim;
+@define-color noti-bg-hover @x-surface-container-high;
+@define-color noti-bg-hover-opaque @s-surface-container-high;
+@define-color noti-bg-focus @s-primary-container;
+@define-color noti-close-bg transparent;
+@define-color noti-close-bg-hover transparent;
+@define-color text-color @s-on-surface;
+@define-color text-color-disabled @s-on-surface-variant;
+@define-color bg-selected @s-primary;
+
+/****************
+ * General Reset *
+ ****************/
+* {
+  outline: none;
+}
+
+/****************
+ * Notifications *
+ ****************/
+.notification-row .notification-background .notification {
+  margin: 6px 0px;
+  border: 2px solid @noti-border-color;
+  transition: background 0.15s ease-in-out;
+}
+
+.notification-row
+  .notification-background
+  .notification
+  .notification-default-action
+  .notification-content
+  .image {
+  border-radius: 16px;
+}
+
+/* Italic text in notifications */
+.notification-content .text-box .body,
+.notification-content .text-box .summary,
+.widget-mpris-player .widget-mpris-title,
+.widget-mpris-player .widget-mpris-subtitle {
+  font-style: italic;
+}
+
+/* Inline reply styling */
+.notification-content .inline-reply {
+  margin: 6px;
+}
+
+.inline-reply-entry,
+.inline-reply-button {
+  border-radius: 16px;
+}
+
+.notification-background .close-button {
+  margin-top: 12px;
+  margin-right: 4px;
+}
+
+.notification-group {
+  padding: 0;
+  margin: 0;
+}
+
+/****************************
+ * Rounded Elements Cleanup *
+ ****************************/
+.notification-default-action,
+.notification-content,
+.inline-reply,
+.inline-reply-entry,
+.notification-default-action:not(:only-child),
+.inline-reply-button,
+.body-image,
+.notification {
+  border-radius: 16px;
+  -gtk-outline-radius: 16px;
+}
+
+/****************
+ * Control Center *
+ ****************/
+.control-center {
+  border: 2px solid @noti-border-color;
+  border-radius: 16px;
+  margin: 12px;
+}
+
+/****************
+ * MPRIS Widget *
+ ****************/
+.widget-mpris > box > button {
+  padding: 0;
+}
+
+.widget-mpris-player {
+  border-radius: 16px;
+}
+
+.widget-mpris-player .widget-mpris-album-art {
+  border-radius: 16px;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+/****************
+ * Title Widget *
+ ****************/
+.widget-title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.widget-title > button {
+  border: 1px solid @x-on-background;
+  background: @s-on-primary;
+  border-radius: 8px;
+}
+
+.widget-title > button:hover {
+  background: @s-inverse-primary;
+}
+
+/****************
+ * DND Widget *
+ ****************/
+.widget-dnd {
+  color: @s-on-background;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.widget-dnd > switch {
+  border-radius: 32px;
+  border: 1px solid @x-on-background;
+  background: @s-on-primary;
+}
+
+.widget-dnd > switch:checked {
+  background: @s-inverse-primary;
+}
+
+.widget-dnd > switch slider {
+  background: @s-primary-fixed;
+  border-radius: 32px;
+}
+
+/************************
+ * Buttons Grid Widget *
+ ************************/
+.widget-buttons-grid {
+  font-size: 32px;
+  border: 1px solid @on-background;
+  border-radius: 16px;
+  background: @s-on-primary;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  color: @text-box;
+  background: none;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  color: @text-color-disabled;
+  transition: color 0.15s ease-in-out;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle {
+  color: @noti-bg-darker;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
+  color: @text-color;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:hover {
+  color: @s-inverse-primary;
+  transition: color 0.15s ease-in-out;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked:hover {
+  color: @s-primary;
+  transition: color 0.15s ease-in-out;
+}
+
+/******************************
+ * Volume and Backlight Widgets *
+ ******************************/
+.widget-volume,
+.widget-backlight {
+  background: @x-on-secondary-fixed;
+  font-size: 32px;
+  border-radius: 16px;
+  border: 2px solid @x-on-background;
+  color: @s-on-background;
+}

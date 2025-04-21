@@ -1,0 +1,15 @@
+[Unit]
+Description=CPU Temperature Alert Script
+After=multi-user.target
+
+[Service]
+ExecStart=%h/.config/bnsplit/scripts/cpu_temp_alert.sh
+Restart=always
+RestartSec=5s
+Environment=DISPLAY=:0
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=default.target
+

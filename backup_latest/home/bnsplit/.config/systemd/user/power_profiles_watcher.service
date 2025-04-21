@@ -1,0 +1,12 @@
+[Unit]
+Description=Watch and react to power profile changes
+After=network.target
+
+[Service]
+ExecStart=/home/bnsplit/.config/bnsplit/scripts/power_profiles_watcher.sh
+Restart=on-failure
+RestartSec=2
+Environment=PATH=/usr/bin:/bin
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=Weather Update Script
+After=multi-user.target
+
+[Service]
+ExecStart=/bin/bash -c '~/.config/bnsplit/scripts/weather.sh temp weather_icon --output="$HOME/.config/bnsplit/cache/current-weather"; ~/.config/bnsplit/scripts/weather.sh temp icon_name --output="$HOME/.config/bnsplit/cache/weather-ags"'
+Environment=DISPLAY=:0
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=default.target

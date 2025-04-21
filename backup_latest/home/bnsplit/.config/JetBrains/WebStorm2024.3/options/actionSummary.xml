@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ChooseRuntime">
+      <i c="1" d="1" l="1744134665331" k="1744134665331" />
+    </e>
+    <e n="GotoAction">
+      <i c="1" l="1744134654239" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.JbChooserAction">
+      <i c="1" l="1744134588194" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.settingChooser.SettingChooserItemAction">
+      <i c="1" l="1744134590734" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1744134665298" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1744134775959" />
+    </e>
+  </component>
+</application>

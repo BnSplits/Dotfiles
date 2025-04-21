@@ -1,0 +1,43 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="ChooseRuntime" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="JetBrains Mono Medium" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "GeneralSettings.initiallyConfigured": "true",
+    "RunOnceActivity.webstorm.auto-popup.quick-doc.initialized": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "evlsprt3.243": "6",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "243.26053.12",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "20.0",
+    "fontSizeToResetEditor": "20.0",
+    "input.method.disabler.muted": "true",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "registry.to.advanced.settings.migration.build": "WS-243.26053.12",
+    "webstorm.hide.welcome.screen.promo": "true"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=custom-adw
+Type=X-GNOME-Metatheme
+Comment=my custom adw gtk theme
+Encoding=UTF-8
+GtkTheme=custom-adw

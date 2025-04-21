@@ -1,0 +1,10 @@
+[Unit]
+Description=Run weather update every 10 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,35 @@
+#theme = ayu
+
+font-family = JetBrains Mono
+
+font-style = bold italic
+font-style-bold = bold italic
+font-style-italic = bold italic
+font-style-bold-italic = bold italic
+
+font-synthetic-style = italic
+
+font-size = 14
+
+background = #1d2021
+
+background-opacity = 1.0
+
+quick-terminal-position=top
+quick-terminal-screen=main
+
+gtk-single-instance = false
+
+window-padding-x = 0
+window-padding-y = 0
+
+#window-width = 140
+#window-height = 40
+
+#adw-toolbar-style = flat
+
+window-decoration = false
+
+window-theme = dark
+
+copy-on-select = true

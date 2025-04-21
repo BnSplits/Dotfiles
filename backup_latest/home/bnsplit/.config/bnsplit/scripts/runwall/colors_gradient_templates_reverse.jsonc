@@ -1,0 +1,10 @@
+[
+  // --------------------------
+  // Base Color Files
+  // --------------------------
+  {
+    "name": "colors-reverse-hex",
+    "template": "~/.config/bnsplit/scripts/runwall/colorsTemplates/colors-hex",
+    "output": "~/.config/bnsplit/colors/colors-reverse-hex"
+  }
+]

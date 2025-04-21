@@ -1,0 +1,85 @@
+/*
+* GTK4 xray Colors
+*/
+
+@define-color accent_bg_color rgba(68,111,129,0.9);
+@define-color accent_fg_color rgba(214,228,233,0.9);
+@define-color accent_color rgba(68,111,129,0.9);
+
+/* @define-color destructive_bg_color rgba(68,111,129,0.9); */
+@define-color destructive_bg_color #F44336;
+@define-color destructive_fg_color rgba(214,228,233,0.9);
+
+/* @define-color destructive_color rgba(193,214,223,0.9); */
+@define-color destructive_color #F44336;
+
+/* @define-color error_bg_color rgba(214,228,233,0.9); */
+@define-color error_bg_color #F44336;
+
+@define-color error_fg_color rgba(214,228,233,0.9);
+
+/* @define-color error_color rgba(193,214,223,0.9); */
+@define-color error_color #F44336;
+
+/* @define-color success_bg_color rgba(152,187,201,0.9); */
+@define-color success_bg_color #66BB6A;
+@define-color success_fg_color rgba(214,228,233,0.9);
+
+/* @define-color success_color rgba(79,129,150,0.9); */
+@define-color success_color #66BB6A;
+
+/* @define-color warning_bg_color rgba(111,159,180,0.9); */
+@define-color warning_bg_color #FFD600;
+
+@define-color warning_fg_color rgba(57,93,109,0.9);
+
+/* @define-color warning_color rgba(68,111,129,0.9); */
+@define-color warning_color #FFD600;
+
+@define-color window_bg_color rgba(14,23,27,0.9);
+@define-color window_fg_color rgba(234,241,244,0.9);
+@define-color view_bg_color rgba(14,23,27,0.9); /* Nautilus main window */
+@define-color view_fg_color rgba(234,241,244,0.9);
+@define-color headerbar_bg_color rgba(36,58,68,0.9);
+@define-color headerbar_fg_color rgba(234,241,244,0.9);
+@define-color headerbar_border_color rgba(79,129,150,0.9);
+@define-color headerbar_backdrop_color rgba(14,23,27,0.9);
+@define-color headerbar_shade_color rgba(14,23,27,0.9);
+@define-color headerbar_darker_shade_color rgba(14,23,27,0.9);
+@define-color sidebar_bg_color rgba(14,23,27,0.9);
+@define-color sidebar_fg_color rgba(214,228,233,0.9);
+@define-color sidebar_backdrop_color rgba(14,23,27,0.9);
+@define-color sidebar_border_color rgba(14,23,27,0.9);
+@define-color sidebar_shade_color rgba(14,23,27,0.9);
+@define-color card_bg_color rgba(36,58,68,0.9);
+@define-color card_fg_color rgba(234,241,244,0.9);
+@define-color card_shade_color rgba(14,23,27,0.9);
+@define-color dialog_bg_color rgba(25,41,47,0.9);
+@define-color dialog_fg_color rgba(234,241,244,0.9);
+@define-color popover_bg_color rgba(36,58,68,0.9);
+@define-color popover_fg_color rgba(234,241,244,0.9);
+@define-color popover_shade_color rgba(14,23,27,0.9);
+@define-color thumbnail_bg_color rgba(68,111,129,0.9);
+@define-color thumbnail_fg_color rgba(132,173,190,0.9);
+@define-color incognito_bg_color rgba(14,23,27,0.9);
+@define-color new_title_bg_color rgba(36,58,68,0.9);
+@define-color shade_color rgba(14,23,27,0.25);
+@define-color scrollbar_outline_color rgba(91,146,169,0.9);
+/* Public colors from Default */
+@define-color theme_bg_color @window_bg_color;
+@define-color theme_fg_color @window_fg_color;
+@define-color theme_base_color @view_bg_color;
+@define-color theme_text_color @view_fg_color;
+@define-color theme_selected_bg_color @accent_bg_color;
+@define-color theme_selected_fg_color @accent_fg_color;
+@define-color insensitive_bg_color mix(@window_bg_color,@view_bg_color,0.4);
+@define-color insensitive_fg_color alpha(@window_fg_color,0.5);
+@define-color insensitive_base_color @view_bg_color;
+@define-color borders alpha(currentColor,0.12);
+@define-color theme_unfocused_bg_color @window_bg_color;
+@define-color theme_unfocused_fg_color @window_fg_color;
+@define-color theme_unfocused_base_color @view_bg_color;
+@define-color theme_unfocused_text_color @view_fg_color;
+@define-color theme_unfocused_selected_bg_color @accent_bg_color;
+@define-color theme_unfocused_selected_fg_color @accent_fg_color;
+@define-color unfocused_insensitive_color @insensitive_bg_color;

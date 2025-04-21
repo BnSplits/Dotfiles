@@ -1,0 +1,30 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="JetBrains Mono Medium" />
+    <option name="fontSize" value="14.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "243.26053.27",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "20.0",
+    "fontSizeToResetEditor": "20.0",
+    "previousColorScheme": "_@user_Dark",
+    "registry.to.advanced.settings.migration.build": "IC-243.26053.27"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

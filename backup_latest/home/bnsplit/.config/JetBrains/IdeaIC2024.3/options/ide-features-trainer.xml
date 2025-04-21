@@ -1,0 +1,10 @@
+<application>
+  <component name="LessonStateBase">
+    <option name="map">
+      <map>
+        <entry key="idea.onboarding" value="NOT_PASSED" />
+        <entry key="python.onboarding" value="NOT_PASSED" />
+      </map>
+    </option>
+  </component>
+</application>

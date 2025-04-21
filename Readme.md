@@ -28,8 +28,6 @@ cd Dotfiles/
 ---
 
 ## 🔗 **Credits**
-- **Theming Tools:** Chromapick (color extraction) + Chromafade (gradients) - own made
+- Theming Tools (own made): Chromapick (color extraction) + Chromafade (gradients)
 - Widget System: Astal
 - Neovim Base: LazyVim
-
-*Use as inspiration - build your own config!*

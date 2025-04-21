@@ -8,26 +8,28 @@
 
 ## 🖼 **Screenshots**
 
-![Desktop](./screenshots/2.png)
-![Terminal](./screenshots/3.png)
-![Editor](./screenshots/4.png)
-![Widgets](./screenshots/5.png)
+<div align="center" style="column-count: 2; column-gap: 20px;">
+  <img src="./screenshots/2.png" width="400" alt="The ritual begins">
+  <img src="./screenshots/3.png" width="400" alt="Colors go brrr">
+  <img src="./screenshots/4.png" width="400" alt="Neovim dark magic">
+  <img src="./screenshots/5.png" width="400" alt="Widget wonderland">
+</div>
 
 ---
 
 ## ⚡ **Quick Install**
 
 ```bash
-git clone --depth=1 https://github.com/BnSplits/Bn-Dotfiles.git
-cd Bn-Dotfiles/Scripts
-./setup.sh
+git clone --depth=1 https://github.com/BnSplits/Dotfiles.git
+cd Dotfiles/
+./setup_arch.sh
 ```
 
 ---
 
 ## 🔗 **Credits**
-- Wallpaper theming: Custom script (`Somewhere/col_gen`)
-- Widgets: [Astal](https://aylur.github.io/astal/)
-- Neovim base: [LazyVim](https://github.com/LazyVim/LazyVim)
+- **Theming Tools:** Chromapick (color extraction) + Chromafade (gradients) - own made
+- Widget System: Astal
+- Neovim Base: LazyVim
 
-*MIT Licensed* • *Use as inspiration, not a final config*
+*Use as inspiration - build your own config!*

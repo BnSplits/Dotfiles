@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Get location (latitude, longitude)
-LOCATION=$(curl -s ipinfo.io/loc) || {
+LOCATION=$(curl -s http://ip-api.com/json | jq -r '"\(.lat),\(.lon)"') || {
   echo "Location lookup failed" >&2
   exit 1
 }
 
 # Get city name
-CITY=$(curl -s ipinfo.io/city) || {
+CITY=$(curl -s "http://ip-api.com/line/?fields=city") || {
   echo "City lookup failed" >&2
   exit 1
 }

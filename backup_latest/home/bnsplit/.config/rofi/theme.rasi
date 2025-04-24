@@ -6,14 +6,11 @@
 }
 
 window {
-    // border: 1px;
     border: 2px;
     border-color: @s-on-surface;
-    // border-radius: 5px;
     border-radius: 12px;
     width: 1000px;
     height: 600px;
-    // background-color: @x-surface;
     background-color: @s-surface;
 }
 
@@ -93,19 +90,16 @@ textbox {
 }
 
 element {
-    //padding: 4.5px;
     padding: 10px;
     background-color: transparent;
     children: [ element-text, element-icon ];
     border: 0px;
     border-color: @x-on-surface;
     text-color: @s-on-surface;
-    // border-radius: 5px;
     border-radius: 12px;
 }
 
 element.normal.normal {
-    background-color: @x-surface-container-low;
     background-color: @x-shadow;
 }
 
@@ -130,7 +124,6 @@ element.selected.active {
 }
 
 element.alternate.normal {
-    background-color: @x-surface-container-low;
     background-color: @x-shadow;
 }
 
@@ -145,7 +138,6 @@ button {
     margin: 0 10px;
     cursor: pointer;
     padding: 12px;
-    // border-radius: 8px;
     border-radius: 12px;
     border: 1px;
     background-color: @s-on-primary;

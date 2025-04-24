@@ -240,10 +240,10 @@
 ; gradient_color_8 = '#cc3333'
 
 gradient = 1
-gradient_color_1 = '#395D6D'
-gradient_color_2 = '#5B92A9'
-gradient_color_3 = '#98BBC9'
-gradient_color_4 = '#D6E4E9'
+gradient_color_1 = '#2E5678'
+gradient_color_2 = '#4A87BA'
+gradient_color_3 = '#8EB4D4'
+gradient_color_4 = '#D2E1EE'
 gradient_color_5 = '#FFFFFF'
 
 

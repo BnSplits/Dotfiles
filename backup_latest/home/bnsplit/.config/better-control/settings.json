@@ -18,5 +18,6 @@
         "Autostart"
     ],
     "language": "en",
-    "usbguard_hidden_devices": []
+    "usbguard_hidden_devices": [],
+    "vertical_tabs": true
 }

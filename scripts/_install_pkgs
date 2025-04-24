@@ -28,6 +28,7 @@ clipse
 cmatrix
 cups
 dconf-editor
+decibels
 dialect
 dnsmasq
 docker
@@ -233,6 +234,7 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xorg-xrdb
 xorg-xwayland
+xprintidle
 yay
 yay-debug
 yazi

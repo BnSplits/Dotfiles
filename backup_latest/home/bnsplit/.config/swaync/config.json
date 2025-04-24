@@ -90,11 +90,11 @@
       "actions": [
         {
           "label": " ",
-          "command": "sh -c 'swaync-client --close-panel; sleep 0.2; kitty --class nmtui -- nmtui'"
+          "command": "sh -c 'swaync-client --close-panel; sleep 0.2; better-control -w -m -s 950x600'"
         },
         {
           "label": "󰂯",
-          "command": "sh -c 'swaync-client --close-panel; sleep 0.2; blueman-manager'"
+          "command": "sh -c 'swaync-client --close-panel; sleep 0.2; better-control -b -m -s 950x600'"
         },
         {
           "label": "󰗌⁴",

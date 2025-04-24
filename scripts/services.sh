@@ -13,6 +13,12 @@ if confirm "Do you want to enable pipewire?"; then
   sudo systemctl enable --now pipewire pipewire-pulse wireplumber
 fi
 
+# SSH
+print_separator "SSH"
+if confirm "Do you want to enable ssh daemon?"; then
+  sudo systemctl enable --now sshd
+fi
+
 # Bluetooth setup
 print_separator "Bluetooth"
 if confirm "Do you want to configure Bluetooth?"; then
